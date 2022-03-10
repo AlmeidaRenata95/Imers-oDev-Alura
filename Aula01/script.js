@@ -19,7 +19,7 @@ const calculo = function () {
     }
    
     return notaFinal;
-    
+  
 };
 
 submitButtton.addEventListener('click', calculo);
