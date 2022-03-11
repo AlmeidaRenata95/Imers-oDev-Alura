@@ -10,7 +10,7 @@ body {
   
   .container {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     height: 100vh;
   }
   
@@ -34,7 +34,23 @@ body {
     top: 10px;
     right: 10px;
   }
+
+  .converter{
+    text-align: center;
+    margin: 12px;
+
+  }
+  .converter:hover{
+    background-color: rgb(146, 121, 121);
+  }
   
+  .resultado{
+    color:#ffffff;
+    padding: 50px;
+ 
+  }
+
+
   input {
     margin: 12px;
     padding: 6px;
@@ -43,17 +59,20 @@ body {
   
   label {
     color: white;
+    
   }
   
   button {
     margin-top: 12px;
     padding: 4px 8px;
     border-radius: 10px;
-    background: #ffffff;
+    background: #ccc;
   }
   
   h2 {
     color: #ffffff;
     font-size: 30px;
   }
+
+
   
