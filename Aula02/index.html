@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -12,15 +13,31 @@
           Conversor de moedas
         </h1>
         <p class="page-subtitle">
-          Descubra os valores em dolar U$
+          Descubra os valores em real R$
         </p>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
-        <label for="moeda">Insira o valor</label><br>
-        <input type="number" id="valor" size="2" /><br>
-        <button type="submit" onclick="Converter()">Converter</button>
+
+        <label for="moeda">Insira o valor em Dólar</label><br>
+        <input type="number" id="valorDolar" size="2" /><br>
+        <button class="converter" type="submit" onclick="ConverterDolar()">Converter</button><br>
+
+        <label for="moeda">Insira o valor em Euro</label><br>
+        <input type="number" id="valorEuro" size="2" /><br>
+        <button class="converter" type="submit" onclick="ConverterEuro()">Converter</button><br>
+
+        <label for="moeda">Insira o valor em Libra</label><br>
+        <input type="number" id="valorLibra" size="2" /><br>
+        <button class="converter" type="submit" onclick="ConverterLibra()">Converter</button><br>
+
+        <div class="resultado">
         <h2 id="valorConvertido"></h2>
+        </div>
+
       </div>
       <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+       
+        <script src="script.js"></script>
+        
 </body>
 </html>
